@@ -2,11 +2,14 @@ package StacksandQueues.Stacks;
 
 
 
-class StackX
-{
+class StackX{
+
+//acess modifiers
+   
 private int maxSize;        // size of stack array
 private long[] stackArray;
 private int top;            // top of stack
+   
 //--------------------------------------------------------------
 public StackX(int s)         // constructor
    {
