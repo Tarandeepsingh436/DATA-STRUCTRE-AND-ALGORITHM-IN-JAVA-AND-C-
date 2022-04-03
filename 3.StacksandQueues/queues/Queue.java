@@ -4,11 +4,11 @@ package StacksandQueues.queues;
 
 class Queue
 {
-private int maxSize;
-private long[] queArray;
-private int front;
-private int rear;
-private int nItems;
+         private final int maxSize;
+         private long[] queArray;
+         private int front;
+         private int rear;
+         private int nItems;
 //--------------------------------------------------------------
 public Queue(int s)          // constructor
    {
@@ -35,7 +35,27 @@ public long remove()         // take item from front of queue
    nItems--;                      // one less item
    return temp;
    }
-//--------------------------------------------------------------
+
+
+   public void display() { // displays array contents
+       for(int j=0; j<maxSize; j++) // for each element,
+      System.out.print(queArray[j] + " "); // display it
+      System . out .println ( " " ); ;
+   }
+
+
+   public int getString() {
+
+   }
+
+   public int getLong(){
+
+   }
+
+   public int  getChar(){
+
+   }
+   //--------------------------------------------------------------
 public long peekFront()      // peek at front of queue
    {
    return queArray[front];

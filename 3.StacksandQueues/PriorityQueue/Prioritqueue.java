@@ -1,4 +1,5 @@
-package StacksandQueues.queues;
+package StacksandQueues.PriorityQueue;
+
 
 
 
@@ -24,6 +25,5 @@ public static void main(String[] args) throws IOException
    }  // end main()
 //-------------------------------------------------------------
 }  // end class PriorityQApp
-
 
 
