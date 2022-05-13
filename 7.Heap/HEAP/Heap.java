@@ -1,3 +1,17 @@
+/*
+
+Its parent = (x−1)/2. 
+
+Its left child = 2*x+1. 
+
+Its right child = 2*x+2.
+
+
+*/
+
+
+
+
 class Heap
 {
 	private Node[] heapArray;

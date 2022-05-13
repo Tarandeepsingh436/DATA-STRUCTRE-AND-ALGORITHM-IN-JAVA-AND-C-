@@ -7,11 +7,24 @@ public class GraphApp {
 		g.addVertex('B');
 		g.addVertex('C');
 		g.addVertex('D');
+		g.addVertex('?');
 		g.addEdge(1,2);
 		g.addEdge(0,1);
 		
 		g.displayMatrix();
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 

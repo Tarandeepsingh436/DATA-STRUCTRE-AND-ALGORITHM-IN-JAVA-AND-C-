@@ -54,6 +54,7 @@ class HashTable
 		}
 		hashArray[hashVal] = item;     // insert item
 	}  // end insert()
+
 	//-------------------------------------------------------------
 	public DataItem delete(int key)   // delete a DataItem
 	{
@@ -91,3 +92,8 @@ class HashTable
 	}
 	//-------------------------------------------------------------
 }  // end class HashTable
+
+
+
+
+

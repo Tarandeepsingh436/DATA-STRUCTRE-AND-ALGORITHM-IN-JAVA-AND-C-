@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch HashTableApp",
+      "request": "launch",
+      "mainClass": "HashTableApp",
+      "projectName": "DATA-STRUCTRE-AND-ALGORITHM-IN-JAVA-AND-C-_6b0d065a"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "/Users/apple/GitHub/DATA-STRUCTRE-AND-ALGORITHM-IN-JAVA-AND-C-/6.HashTable/DOUBLEHASHING",
+      "environment": [],
+      "program": "/Users/apple/GitHub/DATA-STRUCTRE-AND-ALGORITHM-IN-JAVA-AND-C-/6.HashTable/DOUBLEHASHING/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "lldb",
+      "console": "integratedTerminal"
+    }
+  ]
+}

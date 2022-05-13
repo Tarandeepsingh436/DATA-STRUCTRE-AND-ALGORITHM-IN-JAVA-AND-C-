@@ -31,6 +31,8 @@ class HashTable{
     System.out.println("");
 
     }
+
+
     // -------------------------------------------------------------
     public int hashFunc(int key)
     {
@@ -70,54 +72,6 @@ class HashTable{
             return null; // can’t find item
     } // end delete()
     // -------------------------------------------------------------
-    
-/*
-  ArrayList<MapNode<K, V> > temp = buckets;
- 
-        // New bucketList of double the old size is created
-        buckets = new ArrayList<MapNode<K, V> >(2 * numBuckets);
- 
-        for (int i = 0; i < 2 * numBuckets; i++) {
-            // Initialised to null
-            buckets.add(null);
-        }
-        // Now size is made zero
-        // and we loop through all the nodes in the original bucket list(temp)
-        // and insert it into the new list
-        size = 0;
-        numBuckets *= 2;
- 
-        for (int i = 0; i < temp.size(); i++) {
- 
-            // head of the chain at that index
-            MapNode<K, V> head = temp.get(i);
- 
-            while (head != null) {
-                K key = head.key;
-                V val = head.value;
- 
-                // calling the insert function for each node in temp
-                // as the new list is now the bucketArray
-                insert(key, val);
-                head = head.next;
-            }
-        }
- 
-        System.out.println("\n***Rehashing Ended***\n");
-
-
-*/
-
-    public void rehash(){
-
-        ArrayList<> temp  = hashArray;
-        
-        
-    
-    
-    }
-
-
 
 
 
